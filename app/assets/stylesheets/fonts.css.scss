@@ -1,0 +1,19 @@
+@font-face {
+	font-family: 'nobileregular';
+	src: url('/assets/Nobile-Regular.eot');
+	src: url('/assets/Nobile-Regular.eot?#iefix') format('embedded-opentype'),
+		url('/assets/Nobile-Regular.woff') format('woff'),
+		url('/assets/Nobile-Regular.ttf')  format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'nobilemedium_italic';
+	src: url('/assets/Nobile-MediumItalic.eot');
+	src: url('/assets/Nobile-MediumItalic.eot?#iefix') format('embedded-opentype'),
+		url('/assets/Nobile-MediumItalic.woff') format('woff'),
+		url('/assets/Nobile-MediumItalic.ttf')  format('truetype');
+	font-weight: 500;
+	font-style: italic;
+}

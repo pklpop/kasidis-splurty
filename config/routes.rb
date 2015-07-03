@@ -1,10 +1,13 @@
 Splurty::Application.routes.draw do
-  # The priority is based upon order of creation: first created -> highest priority.
-  # See how all your routes lay out with "rake routes".
-root 'quotes#index'
+  # The priority is based upon order of creation: first created -> highest priority.  # See how all your routes lay out with "rake routes".
 
+root 'quotes#index'
 resources :quotes
-  # You can have the root of your site routed with "root"
+get 'about' , :to => 'quotes#about'  
+
+end
+
+# You can have the root of your site routed with "root"
   # root 'welcome#index'
 
   # Example of regular route:
@@ -55,4 +58,4 @@ resources :quotes
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-end
+
